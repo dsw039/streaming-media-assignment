@@ -1,0 +1,25 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media Assignment",
+  "homepage": "https://github.com/dsw039/streaming-media-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/dsw039/streaming-media-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsw039/streaming-media-assignment.git"
+  },
+  "license": "ISC",
+  "author": "Daniel Wright",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
